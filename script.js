@@ -28,8 +28,8 @@ function renderizarListas(filtro = "") {
         // 1. Adicionar à Lista Geral
         listaGeralEl.innerHTML += novoItem;
 
-        // 2. Adicionar à lista de quem começa com 'A'
-        if (nomeUpper.startsWith("A")) {
+        // 2. Adicionar à lista de quem começa com 'B'
+        if (nomeUpper.startsWith("B")) {
             listaAEl.innerHTML += novoItem;
         }
 
