@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Convidados Premium</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Gerenciador de Convidados</h1>
+        
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="Pesquisar convidado...">
+        </div>
+
+        <div class="lists-wrapper">
+            <section class="card">
+                <h2>Todos os Convidados</h2>
+                <ul id="listaGeral"></ul>
+            </section>
+
+            <section class="card">
+                <h2>Começam com "A"</h2>
+                <ul id="listaA"></ul>
+            </section>
+
+            <section class="card">
+                <h2>Mais de 5 Letras</h2>
+                <ul id="listaLongos"></ul>
+            </section>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
